@@ -611,3 +611,139 @@ button:hover{
     font-size:28px;
   }
 }
+@media (max-width: 768px){
+
+  body{
+    overflow:auto;
+  }
+
+  .portal{
+
+    width:100%;
+    min-height:100vh;
+
+    border-radius:0;
+
+    padding:
+      120px 20px
+      80px;
+
+    justify-content:flex-start;
+  }
+
+  .creator{
+
+    top:18px;
+    left:18px;
+
+    font-size:11px;
+  }
+
+  .moon{
+
+    width:70px;
+    height:70px;
+
+    margin-bottom:22px;
+  }
+
+  .gift{
+
+    width:140px;
+    height:140px;
+
+    margin-bottom:26px;
+  }
+
+  .lid{
+
+    width:160px;
+    height:46px;
+
+    left:-10px;
+    top:-24px;
+  }
+
+  .ribbon-v{
+    width:18px;
+  }
+
+  .ribbon-h{
+    height:18px;
+  }
+
+  h1{
+
+    font-size:38px;
+
+    line-height:1.3;
+  }
+
+  p{
+
+    font-size:16px;
+
+    line-height:1.9;
+  }
+
+  .form{
+
+    width:100%;
+
+    flex-direction:column;
+
+    align-items:center;
+  }
+
+  input{
+
+    width:100%;
+    max-width:100%;
+  }
+
+  button{
+
+    width:100%;
+  }
+
+  .card{
+
+    padding:
+      120px 22px
+      60px;
+  }
+
+  .card h2{
+
+    font-size:42px;
+
+    line-height:1.4;
+  }
+
+  .card h3{
+
+    font-size:28px;
+  }
+
+  .card p{
+
+    font-size:17px;
+  }
+
+  .card::before{
+
+    top:30px;
+
+    font-size:22px;
+
+    letter-spacing:4px;
+  }
+
+  .sheep{
+
+    right:0;
+    bottom:10px;
+
+    transform:scale(.65);
+  }
+}
