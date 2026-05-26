@@ -45,19 +45,22 @@ shareBtn.addEventListener("click", () => {
 
   const senderName = personName.textContent;
 
-  const text =
+  const website =
+"https://alharbicode.github.io/eid-greeting/";
+
+const text =
 `🎁 هدية عيد رقمية
 
 ${senderName} أرسل لك تهنئة خاصة بعيد الأضحى المبارك ✨
 
-افتح الرابط واكتب اسمك لتستلم هديتك أنت أيضًا 🌙
+🌙 افتح الهدية من هنا:
+${website}
 
 تقبل الله منا ومنكم صالح الأعمال
 وكل عام وأنتم بخير
 
 صُممت بواسطة:
 م. سليمان الحربي · alharbi code`;
-
   window.open(
     "https://wa.me/?text=" + encodeURIComponent(text),
     "_blank"
