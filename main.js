@@ -46,7 +46,7 @@ shareBtn.addEventListener("click", () => {
   const senderName = personName.textContent;
 
   const website =
-"https://alharbicode.github.io/eid-greeting/";
+"https://eid-greeting-three.vercel.app/";
 
 const text =
 `🎁 هدية عيد رقمية
