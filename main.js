@@ -59,8 +59,7 @@ ${website}
 تقبل الله منا ومنكم صالح الأعمال
 وكل عام وأنتم بخير
 
-صُممت بواسطة:
-م. سليمان الحربي · alharbi code`;
+🕋❤️🎉🐑`;
   window.open(
     "https://wa.me/?text=" + encodeURIComponent(text),
     "_blank"
