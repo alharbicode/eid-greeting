@@ -747,3 +747,18 @@ button:hover{
     transform:scale(.65);
   }
 }
+input,
+button{
+  position:relative;
+  z-index:999;
+}
+
+#intro{
+  position:relative;
+  z-index:999;
+}
+
+.stars,
+.portal::before{
+  pointer-events:none;
+}
