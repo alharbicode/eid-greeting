@@ -49,11 +49,10 @@ shareBtn.addEventListener("click", () => {
 "https://eid-greeting-three.vercel.app/";
 
 const text =
-`🎁 هدية عيد رقمية
-
+`🎁 اصنع الرسالة بنفسك وشاركها مع الاحبة
 ${senderName} أرسل لك تهنئة خاصة بعيد الأضحى المبارك ✨
 
-🌙 افتح الهدية من هنا:
+🌙 رسالة تهنائة العيد
 ${website}
 
 تقبل الله منا ومنكم صالح الأعمال
